@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Délice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     @media (max-width: 768px) {
+
+    .plats {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .Boissons {
+    flex-direction: column;
+    align-items: center;
+     }
+     nav a {
+    display: block;
+    margin: 10px 0;
+      }
+      h1 {
+    font-size: 30px;
+      }
+
+     p {
+    font-size: 18px;
+     } 
+
+     .plat img,
+    .Boisson img {
+    width: 100%;
+     }
+
+
+     }
+
+
+
+         h1 {
+            color:rgb(20, 18, 18);
+            text-align:left;
+            font-size: 50px;
+          letter-spacing: 2px;
+          }
+        
+          
+          p {
+            color:black;
+            text-align: center;
+            font-size: 25px;
+          }
+
+         body{
+          background-color:rgb(242, 201, 208);
+         }
+
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+
+        header {
+       background-color:inear-gradient(to right, #8B0000, #ff4500);
+       color: white;
+       text-align: center;
+       padding: 20px;
+        }
+
+        nav {
+       background-color:rgba(12, 12, 12, 0.993);
+       padding: 20px;
+       text-align: center;
+         }
+
+       nav a {
+       color: white;
+        margin: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.3s, box-shadow 0.3s;
+         }
+
+         nav a:hover {
+          color: #ff4500;
+          transform: scale(1.05);
+           box-shadow: 0 5px 15px rgba(109, 16, 16, 0.851);
+         }
+
+       section {
+       padding: 20px;
+           }
+       
+       .plats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    
+      }
+
+
+      .plat { 
+        width: 220px; 
+        text-align: center; 
+        background-color: white; 
+        padding: 15px; 
+        border-radius: 15px; 
+        transition: transform 0.3s, box-shadow 0.3s;
+        } 
+
+        .plat:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            }
+
+       .plat img { 
+        width: 100%; 
+        border-radius: 15px;
+        transition: transform 0.3s;
+       }
+
+         .plat img:hover {
+          transform: scale(1.1);
+        }
+
+       .Boissons {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 20px;
+        }
+
+
+       .Boisson { 
+        width: 220px; 
+        text-align: center; 
+        background-color: white; 
+        padding: 15px; 
+        border-radius: 15px; 
+        transition: transform 0.3s, box-shadow 0.3s;
+        } 
+
+      .Boisson img { 
+        width: 100%; 
+        border-radius: 15px;
+        transition: transform 0.3s;
+       }
+       .Boisson:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+          }
+
+      button {
+      background-color:linear-gradient(to right, #ff4500, #8B0000);
+      color: white;
+      border-radius: 8px;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      }
+
+      button:hover {
+      background-color: #ef9e07;
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgb(255, 254, 254);
+        }
+
+        footer {
+          background-color: #222;
+         color: white;
+         text-align: center;
+         padding: 15px;
+             }
+
+     
+      header h1 {
+        color: #131313;
+        
+      }
+
+      h3 {
+        color: #ef9606;
+        }
+       .plat p {
+        color: #e99714;
+        font-size: 20px;
+      }
+
+         .Boisson p {
+        color: #e99714;
+        font-size: 20px;
+
+        
+        
+
+       }
+        h3 {
+        color: #8B0000;
+        font-size: 20px;
+       }
+       h2 {
+        text-align: center;
+         font-size: 35px;
+         margin-bottom: 20px;
+       }
+        
+        h4 {
+        margin-bottom: 10px;
+        margin-top: 0%;
+       padding: 20px;
+       text-align:center;
+       font-size: 40px;
+       font-weight: bold;
+       text-decoration: none;
+        }
+
+        h5{
+          text-align: center;
+          font-size:30px;
+          color: rgb(0, 0, 0);
+          transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        h5:hover {
+          transform: scale(1.1);
+          box-shadow: 0 5px 15px rgb(248, 245, 244);
+        }
+        header p {
+          color: #0e0d0d;
+        }
+
+        form {
+         max-width: 400px;
+        margin: auto;
+         }
+
+         input, textarea {
+         width: 100%;
+         padding: 10px;
+          margin-bottom: 10px;
+          border-radius: 8px;
+          border: 1px solid #ccc;
+             }
+          
+    
+    </style>
+
+</head>
+<body>
+    <h1>Restaurant Délice</h1>
+   <p>Bienvenue sur notre page de restaurtion adaptée à <b>Restaurant Délice</b> </p> 
+  <header>
+    <h1>Restaurant Délice</h1>
+    <p>Le goût des vraies,de bon petits plats remplis de saveur et de douceur , fait d'ingrédient 100% naturel.</p>
+
+  </header>
+<nav>
+    <a href="#Accueil">Accueil</a>
+    <a href="#Menu">Menu</a>
+    <a href="#Contact">Contact</a>
+    <a href="#Réservation">Réservation</a>
+    <a href="#Commande">Commande</a>
+  </nav> 
+
+<section id="Accueil">
+    <p>Bienvenue dans notre restaurant,nous proposons des plats de qualité. 
+       Un nouveau restaurant située à <b>Missabougou près de l'hopital du Mali</b>,crée en 2025.<br>
+        
+                            Votre nouvelle adresse gourmande à Bamako.<br>
+        Ici,on partage bien plus que des plats: des rires,des souvenirs,et le vrai goût du Mali revisité avec des spécialité Moderne.</br>
+                           <b>A midi ou le soir,On vous attend avec le sourire ☺</b>
+    </p>
+</section>
+<section id="Menu">
+    <h2>Notre Menu</h2>
+
+    <h3>Plats:</h3>
+    <div class="plats">
+
+        <div class="plat"> <h3>Poulet braisé</h3>
+        <img src="./Poulet braisé.jpg" alt="Poulet braise" width="200">
+        <p> 6000FCFA</p> 
+        <div class="plat" onclick="voirPlat('Poulet braisé')"></div>
+       </div>
+
+       <div class="plat"> <h3>Riz au gras</h3>
+        <img src="./Riz au Gras.jpg" alt="Riz" width="200">
+        <p> 3000FCFA</p> 
+        <div class="plat" onclick="voirPlat('Riz au gras')"></div>
+       </div>
+        
+        
+        <div class="plat"> <h3>Poisson braisé</h3>
+        <img src="./Poisson Braisé.jpg" alt="Poisson" width="200">
+        <p> 5000FCFA</p> 
+        <div class="plat" onclick="voirPlat('Poisson braisé')"></div>
+        </div>
+        
+        <div class="plat"> <h3>Attiekke alloco poulet</h3>
+        <img src="./Attieke alloco poulet.jpg" alt="Attiekke alloco poulet" width="200">
+        <p> 2500FCFA</p> 
+        <div class="plat" onclick="voirPlat('Attiekke alloco poulet')"></div>
+        </div>
+
+       <div class="plat"> <h3>Steake grillée </h3>
+        <img src="./Steake Braisé.jpg" alt="Steake grillée" width="200">
+        <p> 7000FCFA</p> 
+        <div class="plat" onclick="voirPlat('Steake grillée')"></div>
+        </div>
+
+        <div class="plat"> <h3>Tacos mexicain </h3>
+        <img src="./Tacos mexicain.jpg" alt="Tacos mexicain" width="200">
+        <p> 4000FCFA</p> 
+        <div class="plat" onclick="voirPlat('Tacos mexicain')"></div>
+        </div>
+    
+       </div>
+      <h3>Boisson:</h3>
+
+    <div class="Boissons">
+
+        <div class="Boisson"> <h3>Jus naturel</h3>
+         <img src="./Jus naturel.jpg" alt="Jus naturel" width="200">
+         <p> 1000FCFA</p>
+            <div class="Boisson" onclick="voirBoisson('Jus naturel')"></div>
+        </div> 
+
+        <div class="Boisson">  <h3>Eau minérale</h3>
+         <img src="./Eau.jpg" alt="Eau minérale" width="200">
+         <p> 500FCFA</p> 
+         <div class="Boisson" onclick="voirBoisson('au minérale')"></div>
+        </div>
+        
+        <div class="Boisson"> <h3>Bissap</h3>
+         <img src="./Bissap.jpg" alt="Bissap" width="200">
+         <p> 500FCFA</p> 
+         <div class="Boisson" onclick="voirBoisson('Bissap')"></div>
+        </div>
+        
+        <div class="Boisson"> <h3>Cocktail</h3>
+         <img src="./Cocktail.jpg" alt="Cocktail" width="200">
+         <p> 1500FCFA</p> 
+         <div class="Boisson" onclick="voirBoisson('Cocktail')"></div>
+        </div>
+    </div>
+</section>
+<section id="Contact">
+  <h2>Contact</h2>
+
+  <form>
+    <input type="text" placeholder="Votre nom"><br><br> 
+    <input type="email" placeholder="Votre email"><br><br>
+    <input type="text" placeholder="Note sur 10"><br><br>
+    <textarea placeholder="Une pensée!"></textarea><br><br>
+    <button onclick="envoyerMessage()">Envoyer</button>
+  
+  </form>
+  <h5>Laissons nous un contact,une note et une appréciation,<br>également fait nous part de votre ressenti sur la structure et les élement du sit Web</h5>
+    
+
+</section>
+
+<section id="Réservation">
+  <h4>Réservation</h4>
+  <form>
+    <input type="nom" placeholder="Votre nom"><br><br>                
+    <input type="Date" placeholder="Date et mois de réservation"><br><br>
+    <input type="email" placeholder="email"><br><br>
+    <button onclick="envoyerMessage()">Envoyer</button>
+  
+  </form>
+  <h5>Réservez votre places pour des saveur qui te laisse sur places</h5>
+</section>
+
+<section id="Commande">
+  <h4>Commande</h4>
+  <form>
+    <input type="nom" placeholder="Votre nom"><br><br>                
+    <input type="text" placeholder="Plats"><br><br>
+    <input type="Quartier" placeholder="Adresse"><br><br>
+    <button onclick="envoyerMessage()">Envoyer</button>
+  
+  </form>
+  <h5>Commande vos plats pour déguster en privée</h5>
+</section>
+
+ <footer>
+    <p>© 2026 Restaurant Délice | Téléphone: +223 84-36-82-25 <br><br>
+    Quartier: Missabougou près de l'hopital du Mali<br><br>
+    Rue: 108 porte avenue foret vert<br><br>
+    Resto-Contact: +223 20 20 20 20 </p>
+ </footer>
+ <script>
+   function envoyerMessage() {
+   alert("Merci pour votre message ! Nous vous répondrons bientôt 😊");
+
+   let nom = document.querySelector("input[type='text']").value;
+
+    if (nom === "") {
+    alert("Veuillez entrer votre nom !");
+        }  
+    else {
+    alert("Merci " + nom + " pour votre message 😊");
+    } 
+      }
+     function voirPlat(nom) {
+     alert("Vous avez choisi : " + nom + " 🍽️");
+     }
+     function voirPlat(nom) {
+     alert("Vous avez choisi : " + nom + " 🍽️");
+     
+           }
+     let nom = document.getElementById("nom").value;
+  
+  </script>
+</body>
+ </html>
